@@ -61,16 +61,7 @@ public class VentanaInicio extends JFrame {
 			    fondoletra.setBounds(380,120,imagen1.getIconWidth(), imagen1.getIconHeight());
 			    
 			    
-		    	etiqueta = new JLabel("LEAGUE OF MEMORY", CENTER);
-				etiqueta.setLayout(null);
-			    etiqueta.setBounds(90, 20, 450, 60);
-			    etiqueta.setFont(new Font("BeaufortforLOL-Bold", Font.BOLD, 40));
-			    Color color1=new Color(200, 155, 60);
-			    etiqueta.setForeground(color1);
-			    etiqueta.setOpaque(false);
-			    etiqueta.setVisible(false);
-			    //etiqueta.setForeground(Color.black); 
-			    panelRodea.add(etiqueta);
+		    	
 	
 			     //boton de inicio del juego  
 			     botonInicio = new JButton("INICIO");
